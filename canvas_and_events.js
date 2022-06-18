@@ -38,6 +38,13 @@ window.clickEnd = function clickEnd(){
           // nativeLog("Shelf 2")
         }
         
+        currentBookText = randomBookContents();
+        book_on_display = book_clicked_on_press
+        last_book_opened = book_clicked_on_press;
+        scrollSpeed = 0;
+        leftPageP.elt.hidden = false;
+        rightPageP.elt.hidden = false;
+        
         if(getSpecialBookAt(total_dst_traveled ) !== 'none' &&
         Number(book_clicked_on_press % BigInt(12) ) == 4 &&
         Number(book_clicked_on_press % BigInt(288)) < 144 ){ //28
