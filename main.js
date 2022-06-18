@@ -87,7 +87,7 @@ window.setup = function setup() {
   specialBooks = [
     {
       shelf_number: 2,
-      content: "Welcome to the Library of Babel. Here you will find every book that has ever, will ever, or could  ever be written. It contains every possible combination of letters, numbers, and just about all    other human-language characters."
+      content: "Welcome to the Library of Babel. Here you will find every book that has ever, will ever, or could  ever be written. It contains every possible combination of letters, numbers, and other characters."
     },
     {
       shelf_number: 4,
