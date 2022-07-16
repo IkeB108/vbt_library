@@ -99,7 +99,7 @@ window.setup = function setup() {
     },
     {
       shelf_number: 8,
-      content: "A human perspective is too small to appreciate the very big repository of all things possible."
+      content: "An almost infinitessimal sample of the very big repository of all things possible."
     },
   ]
   getSpecialBookAt = (shelf_number) => {
